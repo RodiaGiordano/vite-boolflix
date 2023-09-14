@@ -3,9 +3,7 @@ import SearchBar from "./SearchBar.vue";
 
 export default {
   data() {
-    return {
-      title: "Hello world",
-    };
+    return {};
   },
 
   components: { SearchBar },

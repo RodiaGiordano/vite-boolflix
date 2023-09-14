@@ -1,8 +1,9 @@
 <script>
+import { store } from "../store.js";
 export default {
   data() {
     return {
-      title: "Hello world",
+      store,
     };
   },
 };
@@ -11,6 +12,7 @@ export default {
 <template>
   <div class="input-group flex-nowrap w-50 mx-auto">
     <input
+      v-model="store.textSearch"
       type="text"
       class="form-control"
       placeholder="Search..."

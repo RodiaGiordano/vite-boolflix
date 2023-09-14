@@ -8,6 +8,12 @@ export default {
   },
 
   components: { AppHeader, AppMain },
+
+  methods: {
+    searchWord() {
+      console.log("click");
+    },
+  },
 };
 </script>
 
