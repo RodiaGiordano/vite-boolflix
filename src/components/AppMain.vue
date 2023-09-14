@@ -1,5 +1,5 @@
 <script>
-import SearchBar from "./SearchBar.vue";
+import CardList from "./CardList.vue";
 
 export default {
   data() {
@@ -8,12 +8,12 @@ export default {
     };
   },
 
-  components: { SearchBar },
+  components: { CardList },
 };
 </script>
 
 <template>
-  <SearchBar />
+  <h1>{{ title }}</h1>
 </template>
 
 <style lang="scss" scoped></style>
